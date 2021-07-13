@@ -11,5 +11,7 @@
     },
     "requestBatchSize": 1000,
     "insertBatchSize": 5000,
+    "getWeatherDataFreqMs": 100,
+    "getWeatherDataDurationMs": 6000000,
     "language": "en"
 }

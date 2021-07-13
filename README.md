@@ -1,3 +1,4 @@
+
 # Realtime Weather with Node.js and Cassandra
 
 A minimal Node.js application to fetch and ingest realtime weather data into Cassandra from WeatherAPI.com.
@@ -58,6 +59,8 @@ You can configure the following values in the `default.json` file.
 1. `requestBatchSize` - Number of place codes, cities, or locations you want to fetch in a single batch. This defaults to 2000.
 2. `insertBatchSize` - Number of records you want to insert into Cassandra in a single batch. This, too, defaults to 2000.
 3. `language` - It is a mandatory field required in the `GET` request by the WeatherAPI.com API. It defaults to `en`. Use the [official documentation](https://www.weatherapi.com/docs/) to get more information about other supported languages.
+4. `getWeatherDataFreqMs` - This field signifies how frequently (in ms) do you want to get data from WeatherAPI.com It currently defaults to 100 ms.
+5. `getWeatherDataDurationMs`: Similarly, this field signifies how long do you want the Node.js application to run and fetch weather data for. It currently defaults to 100 minutes, or 6000000 ms.
 
 You can configure the location of the weather information you want to fetch in the `development.json` file using one or more of the the following options (the list/array in the JSON can be heterogeneous) to populate the `placeCodes` key.
 
