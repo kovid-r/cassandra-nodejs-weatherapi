@@ -16,7 +16,7 @@ npm link
 Clone this repository and go to `/path/to/repository` and run the following command to install the dependencies mentioned in `package.json` file.
 
 ```
-npm install
+npm ci
 ```
 
 Run the following command to link the relevant Node.js library from the WeatherAPI.com Node.js SDK:
