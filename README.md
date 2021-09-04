@@ -28,7 +28,7 @@ npm link weatherapilib
 
 ## Initialize the Database
 
-Visit [DataStax Astra's website](https://astra.datastax.com) to create a free account and access to Cassandra-as-a-Service. Once the account is created, create a database called **weatherapi**. You can access the database using the CQLSH in-browser command-line interface. Use the CLI to run the commands in the `initialize.sql` file. The commands will create
+Visit [DataStax Astra's website](https://dtsx.io/3ipNN63) to create a free account and access to Cassandra-as-a-Service. Once the account is created, create a database called **weatherapi**. You can access the database using the CQLSH in-browser command-line interface. Use the CLI to run the commands in the `initialize.sql` file. The commands will create
 * A `KEYSPACE` called **realtime**, and
 * A `TABLE` in that keyspace called **weather**.
 
