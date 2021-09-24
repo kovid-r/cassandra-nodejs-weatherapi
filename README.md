@@ -1,5 +1,5 @@
 
-# Realtime Weather with Node.js and Cassandra
+# [Realtime Weather with Node.js and Cassandra](https://hackernoon.com/build-a-crypto-price-tracker-using-nodejs-and-cassandra-7pn35oa)
 
 A minimal Node.js application to fetch and ingest realtime weather data into Cassandra from WeatherAPI.com.
 
